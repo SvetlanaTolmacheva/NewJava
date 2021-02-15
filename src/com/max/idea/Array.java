@@ -12,9 +12,7 @@ public class Array {
         n[0] = n2;
         n[n.length - 1] = n1;
 
-        if (n.length%2 == 0) {
-            System.out.println(n[0] + n[n.length / 2 - 1]);
-        } else {
+        {
             System.out.println(n[0] + n[n.length / 2]);
         }
 
