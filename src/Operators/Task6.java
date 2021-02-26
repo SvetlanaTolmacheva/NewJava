@@ -15,7 +15,7 @@ public class Task6 {
 
             System.out.println("Выберите единицу измерения: \n 1-кг \n 2-грамм \n 3-фунт");
 
-        } else {
+        } else if (physicalQuantities == 2){
 
             System.out.println("Выберите единицу измерения: \n 1-метр \n 2-миля \n 3-ярд \n 4-фут");
 
@@ -78,7 +78,7 @@ public class Task6 {
 
             System.out.println("Результат: \n килограмм = " + kilogram + "\n грам = " + gram + "\n фут = " + lb );
 
-        } else {
+        } else if (physicalQuantities == 2) {
 
             double meter = 0;
 
@@ -144,6 +144,7 @@ public class Task6 {
             System.out.println("Результат: \n метр = " + meter + "\n миля = " + mile + "\n ярд = " + yard + "\n фут = " + foot);
 
         }
+
 
     }
 
