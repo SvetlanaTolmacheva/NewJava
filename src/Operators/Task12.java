@@ -29,12 +29,12 @@ public class Task12 {
         } else {
             System.out.println("Строка не заканчивается “!!!” ");
         }
-//        if (a && b && c) { не получается проверить три условия
+        if (a && b && c) {
             System.out.println(x.toUpperCase());
-//        } else {
-//            System.out.println("Одно из условий не верно");
-//        }
-        System.out.println(d.replace('a', 'o'));
+        } else {
+            System.out.println("Одно из условий не верно");
+        }
+        System.out.println (d.replace('a', 'o'));
     }
 }
 

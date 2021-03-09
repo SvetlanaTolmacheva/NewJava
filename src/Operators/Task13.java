@@ -7,7 +7,7 @@ public class Task13 {
        System.out.println("Введите строку из слов, разделенных пробелами");
     Scanner console = new Scanner(System.in);
     String x = console.nextLine();
-//        Выведите слова, состоящие только из латиницы.
+     System.out.println(x.matches("[a-z][A-Z]"));
            System.out.println(x.split(" ").length);
 
 }}

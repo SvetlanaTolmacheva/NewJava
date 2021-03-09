@@ -6,7 +6,7 @@ public class Task14 {
 
         int[] array = new int[15];
         for (int i = 0; i < array.length; i++) {
-            array[i] = ((int) (Math.random() * 31) - 15);
+            array[i] = ((int) (Math.random() * 31) - 20);
             System.out.println(array[i]);
         }
         int max = 0;

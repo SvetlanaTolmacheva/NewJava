@@ -6,11 +6,11 @@ public class Task9 {
         System.out.print("Введите размер массива: ");
         Scanner console = new Scanner(System.in);
         int x = console.nextInt();
-        int arr[] = new int[x];
+        double arr[] = new double [x];
         if (x > 0) {
             System.out.print("Введите значения массива: ");
             for (int i = 0; i < x; i++) {
-                arr[i] = console.nextInt();
+                arr[i] = console.nextDouble();
             }
         } else {
             System.out.println("Длина массива должна быть больше 0!");

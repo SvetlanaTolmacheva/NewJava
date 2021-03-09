@@ -7,7 +7,7 @@ public class Task10 {
         Scanner console = new Scanner(System.in);
         int x = console.nextInt();
         int y = console.nextInt();
-        int arr[][] = new int[x][y];
+        double arr[][] = new double[x][y];
         System.out.println("Введите значения массива: ");
         for(int i = 0;i<x;i++){
             for(int j = 0;j<y;j++){
