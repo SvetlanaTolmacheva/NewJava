@@ -7,16 +7,16 @@ public class Task11 {
         System.out.println("Введите число: ");
         Scanner console = new Scanner(System.in);
          String x = console.nextLine();
-        System.out.println("Введите число: ");
         double a = Double.parseDouble(x);
-        int y = console.nextInt();
-        int max = Math.max(a, y);
+        System.out.println("Введите число: ");
+          int y = console.nextInt();
+//        double b =  new Double(y);
+        double max = Math.max(a, y);
         System.out.println("Большее число " + max);
-        int min = Math.min(a, y);
+        double min = Math.min(a, y);
 
         double z = min;
 
-//        System.out.println("Меньшее число " + z);
+//       System.out.println("Меньшее число " + z);
     }
 }
-

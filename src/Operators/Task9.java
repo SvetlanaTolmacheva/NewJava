@@ -17,11 +17,11 @@ public class Task9 {
         }
         double sum = 0;
         for (double i : arr) {
-            sum += x;
+            sum += i;
         }
         double z;
         z = sum / arr.length;
-        System.out.print("Значения строки 1 умноженные на  на среднее арифметическое : ");
+        System.out.print("Значения строки 1 умноженные на среднее арифметическое : ");
         for (int i = 0; i < x; i++) {
             System.out.print(arr[i] * z + " ");
         }

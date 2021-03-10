@@ -11,7 +11,7 @@ public class Task10 {
         System.out.println("Введите значения массива: ");
         for(int i = 0;i<x;i++){
             for(int j = 0;j<y;j++){
-                arr[i][j] = console.nextInt();
+                arr[i][j] = console.nextDouble();
             }
         }
         System.out.print("Значения строки 1 умноженные на 3: ");
