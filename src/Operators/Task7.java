@@ -14,8 +14,9 @@ public class Task7 {
         if (x > 0) {
             System.out.print("Введите значения массива: ");
             for (int i = a; i < x; i++) {
-                arr[i] = console.nextInt();
-        //тут что-то не так
+                arr[i] = console.nextLine();
+            }
+            //тут что-то не так
                 if (arr[x].equals(a)) {
                     System.out.print("Данное значение имеется в константах");
                 } else if (arr[x].equals(b)) {
@@ -29,5 +30,5 @@ public class Task7 {
             }
         }
     }
-}
+
 

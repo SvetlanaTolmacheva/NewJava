@@ -6,18 +6,17 @@ public class Itogovaya3 {
     public static void main(String[] args) {
         System.out.print("Введите количество строк: ");
         Scanner console = new Scanner(System.in);
-        int a = console.nextInt();
-        String arr[] = new String[a];
-        if (a > 0) {
+        int x = console.nextInt();
+        String arr[] = new String[x];
+        if (x > 0) {
             System.out.print("Введите значения строк: ");
-            String x = console.nextLine();
-            String y = console.nextLine();
-            String z = console.nextLine();
+            for (int i = 0; i < x; i++) {
+                arr[i] = console.nextLine();
             int count = 0;
-            for (int i = 0; i < x.length(); i++) {
+//            for (int i = 0; i < x.lenth(); i++) {
                 count++;
 //
-//                System.out.println( +x);
+//                System.out.println( );
             }
         }
     }
