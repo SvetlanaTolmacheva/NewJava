@@ -8,15 +8,18 @@ import java.util.Scanner;
 public class Itogovaya2 {
 
     public static void main(String[] args) {
-//        int[] nums = new int[] {};
         Scanner in = new Scanner(System.in);
+//        String arr[];
+//        System.out.println("Простое уравнение ");
+//        result = str.lastIndexOf('x');
+
         String a, b, c;
         System.out.print("a = ");
         a = in.nextLine();
         System.out.print("b = ");
         b = in.nextLine();
         System.out.print("c = ");
-//        c = in.nextLine();
+        c = in.nextLine();
 //
 //        if (a == x)
 //            int x = c - b;

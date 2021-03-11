@@ -12,11 +12,14 @@ public class Itogovaya3 {
             System.out.print("Введите значения строк: ");
             for (int i = 0; i < x; i++) {
                 arr[i] = console.nextLine();
-            int count = 0;
+//            int count = 0;
 //            for (int i = 0; i < x.lenth(); i++) {
-                count++;
+//                count++;
 //
-//                System.out.println( );
+//               System.out.println("Количество строк: " +x);
+//                System.out.println("Строка 1: " +i);
+//                System.out.println("Ответ ");
+
             }
         }
     }
