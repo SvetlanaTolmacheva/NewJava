@@ -19,11 +19,11 @@ public class Task7 {
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = console.nextLine();}
 
-                if (arr.equals(a)) {
+                if (arr[i].equals(a)) {
                     System.out.print("Данное значение имеется в константах");
-                } else if (arr.equals(b)) {
+                } else if (arr[i].equals(b)) {
                     System.out.print("Данное значение имеется в константах");
-                } else if (arr.equals(c)) {
+                } else if (arr[i].equals(c)) {
                     System.out.print("Данное значение имеется в константах");
                 } else {
                     System.out.print("Такой константы нет!");
